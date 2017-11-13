@@ -1,0 +1,153 @@
+body{
+    background-image: url(/images/bg.png);
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+main {
+    width: 75%;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+form{
+     box-sizing: border-box;
+  padding-bottom: 40px;
+  border-radius: 3px;
+}
+input {
+    margin: 10px 25px;
+  width: 300px;
+  display: block;
+  border: none;
+  padding: 10px 0;
+  border-bottom: solid 1px #1abc9c;
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background-position: -200px 0;
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  color: #0e6252;
+  border-bottom: solid 1px grey;
+}
+
+
+input:focus, input:valid {
+  box-shadow: none;
+  outline: none;
+  
+  
+}
+input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+  color: #1abc9c;
+  font-size: 11px;
+  
+  visibility: visible !important;
+}
+ 
+
+
+textarea{
+    color: #0e6252;
+    margin: 10px 25px;
+  width: 300px;
+  display: block;
+  border: none;
+  padding: 10px 0;
+  border-bottom: solid 1px #5e6362;
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+          transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background-position: -200px 0;
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+}
+
+/* Facebook */
+.fa-facebook {
+	padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+	 text-align: center;
+    border-radius: 50%;
+    background-color: transparent;
+	width: 50px;
+    border:3px solid white;
+    color: white;
+}
+.fa-twitter {
+	padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+	text-align: center;
+  border-radius: 50%;
+    background-color: transparent;
+	width: 50px;
+    border:3px solid white;
+    color: white;
+    }
+    .fa-linkedin {
+    	padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    	text-align: center;
+  border-radius: 50%;
+    background-color: transparent;
+	width: 50px;
+    border:3px solid white;
+    color: white;
+}
+.fa-google {
+  padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+        text-align: center;
+  border-radius: 50%;
+    background-color: transparent;
+    width: 50px;
+    border:3px solid white;
+    color: white;
+}
+.fa-github {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    text-align: center;
+  border-radius: 50%;
+    background-color: transparent;
+    width: 50px;
+    border:3px solid white;
+    color: white;
+
+}
+.mb-btn{
+    white-space: normal;
+}
+.card {
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+.bouton{
+   border-color: grey; 
+}
+.pic{
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
