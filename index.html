@@ -36,81 +36,8 @@
 
 		</div>
 	</nav>
-	<script>
-		var navLinks = document.querySelectorAll('nav a')
-var firstLink = navLinks[0]
-var html = document.querySelector('html')
-
-function linkToHash(link) {
-  return link.hash
-}
-
-firstLink.onclick = function(event) {
-  event.preventDefault()
-  var targetDiv = document.querySelector('#exp ')
-  $(html).animate(
-    {
-      scrollTop: targetDiv.offsetTop
-    },
-    1000
-  )
-}
-var secondLink = navLinks[1]
-var html = document.querySelector('html')
-
-function linkToHash(link) {
-  return link.hash
-}
-
-secondLink.onclick = function(event) {
-  event.preventDefault()
-  var targetDiv = document.querySelector('#port ')
-  $(html).animate(
-    {
-      scrollTop: targetDiv.offsetTop
-    },
-    1000
-  )
-}
-var thirdLink = navLinks[2]
-var html = document.querySelector('html')
-
-function linkToHash(link) {
-  return link.hash
-}
-
-thirdLink.onclick = function(event) {
-  event.preventDefault()
-  var targetDiv = document.querySelector('#callme ')
-  $(html).animate(
-    {
-      scrollTop: targetDiv.offsetTop
-    },
-    1000
-  )
-}
-var fourthLink = navLinks[3]
-var html = document.querySelector('html')
-
-function linkToHash(link) {
-  return link.hash
-}
-
-fourthLink.onclick = function(event) {
-  event.preventDefault()
-  var targetDiv = document.querySelector('#about ')
-  $(html).animate(
-    {
-      scrollTop: targetDiv.offsetTop
-    },
-    1000
-  )
-}
-	</script>
-
 </header>
 <body style="background-image: url(images/bg.png)">
-
 	<main class="container">
 		<div >
 			<div class="row">
@@ -209,42 +136,75 @@ fourthLink.onclick = function(event) {
 
 		<div class="jumbotron vertical-center ">
 
-			<div class="row">
-				<div class="card-deck">
+<div class="row">
 
-					<div class="col-sm-6 col-md-4">
-						<div class="card">
-						<img class="card-img-top img-fluid" src="H:\9raya...js\week1 html&css&js\CV bootsrap\images\html.jpg" alt="Card image cap">
-						<div class="card-body">
-							<h4 class="card-title">MockeUp</h4>
-							<p class="card-text">Description.</p>
-							<a href="https://github.com/moezbj/MoCkeup.io" class="btn btn-primary mb-btn">Link to GitHub</a>
-						</div>
-						</div>
+				<div class=" col-sm-6 col-md-4">
+					<div class="card">
+					<img class="card-img-top img-fluid" src="images\m.png" alt="Card image cap">
+					<img class="card-img-top img-fluid" src="images\m1.png" alt="Card image cap">
+					<div class="card-body">
+						<h4 class="card-title">Wiki-App</h4>
+						<p class="card-text">Discription.</p>
+						<a href="https://github.com/moezbj/wiki-app" class="btn btn-primary mb-btn">Link to GitHub</a>
 					</div>
-					<div class="col-sm-6 col-md-4">
-						<div class="card">
-						<img class="card-img-top img-fluid" src="H:\9raya...js\week1 html&css&js\CV bootsrap\images\400.jpg" alt="Card image cap">
-						<div class="card-body">
-							<h4 class="card-title">Responsive-image</h4>
-							<p class="card-text">Discription.</p>
-							<a href="https://github.com/moezbj/Responsive-image.io" class="btn btn-primary mb-btn">Link to GitHub</a>
-						</div>
+				</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="card">
+					<img class="card-img-top img-fluid" src="images\screenshot.PNG" alt="Card image cap">
+					<div class="card-body">
+						<h4 class="card-title">Local-Weather-App</h4>
+						<p class="card-text">discription.</p>
+						<a href="https://github.com/moezbj/local-weather" class="btn btn-primary mb-btn">Link to GitHub</a>
 					</div>
+				</div>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<div class="card">
+					<img class="card-img-top img-fluid" src="images\screet.png" alt="Card image cap">
+					<div class="card-body">
+						<h4 class="card-title">Quote-Random</h4>
+						<p class="card-text">discription.</p>
+						<a href="https://github.com/moezbj/Quotes.io" class="btn btn-primary mb-btn">Link to GitHub</a>
 					</div>
-					<div class="col-sm-12 col-md-4">
-						<div class="card">
-						<img class="card-img-top img-fluid" src="H:\9raya...js\week1 html&css&js\CV bootsrap\images\n3.jpg" alt="Card image cap">
-						<div class="card-body">
-							<h4 class="card-title">Tribute</h4>
-							<p class="card-text">Discription.</p>
-							<a href="https://github.com/moezbj/tribute.io" class="btn btn-primary mb-btn">Link to GitHub</a>
-						</div>
-					</div>
-					</div>
-
+				</div>
 				</div>
 			</div>
+
+<div class="row">
+
+				<div class=" col-sm-6 col-md-4">
+					<div class="card">
+					<img class="card-img-top img-fluid" src="images/street.png" alt="Card image cap">
+					<div class="card-body">
+						<h4 class="card-title">Street-fighter</h4>
+						<p class="card-text">Discription.</p>
+						<a href="https://github.com/moezbj/Street-fighter-demo" class="btn btn-primary mb-btn">Link to GitHub</a>
+					</div>
+				</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="card">
+					<img class="card-img-top img-fluid" src="images/story.png" alt="Card image cap">
+					<div class="card-body">
+						<h4 class="card-title">Silly-Story-generator</h4>
+						<p class="card-text">discription.</p>
+						<a href="https://github.com/moezbj/StoryGenerator.io" class="btn btn-primary mb-btn">Link to GitHub</a>
+					</div>
+				</div>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<div class="card">
+					<img class="card-img-top img-fluid" src="images/gallery.png" alt="Card image cap">
+					<div class="card-body">
+						<h4 class="card-title">Gallery-images</h4>
+						<p class="card-text">discription.</p>
+						<a href="https://github.com/moezbj/gallery.io" class="btn btn-primary mb-btn">Link to GitHub</a>
+					</div>
+				</div>
+				</div>
+			</div>
+
 			<div class="row">
 
 				<div class=" col-sm-6 col-md-4">
@@ -279,6 +239,45 @@ fourthLink.onclick = function(event) {
 				</div>
 			</div>
 
+
+			<div class="row">
+				<div class="card-deck">
+
+
+					<div class="col-sm-6 col-md-4">
+						<div class="card">
+						<img class="card-img-top img-fluid" src="H:\9raya...js\week1 html&css&js\CV bootsrap\images\html.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h4 class="card-title">MockeUp</h4>
+							<p class="card-text">Description.</p>
+							<a href="https://github.com/moezbj/MoCkeup.io" class="btn btn-primary mb-btn">Link to GitHub</a>
+						</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-4">
+						<div class="card">
+						<img class="card-img-top img-fluid" src="H:\9raya...js\week1 html&css&js\CV bootsrap\images\400.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h4 class="card-title">Responsive-image</h4>
+							<p class="card-text">Discription.</p>
+							<a href="https://github.com/moezbj/Responsive-image.io" class="btn btn-primary mb-btn">Link to GitHub</a>
+						</div>
+					</div>
+					</div>
+					<div class="col-sm-12 col-md-4">
+						<div class="card">
+						<img class="card-img-top img-fluid" src="H:\9raya...js\week1 html&css&js\CV bootsrap\images\n3.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h4 class="card-title">Tribute</h4>
+							<p class="card-text">Discription.</p>
+							<a href="https://github.com/moezbj/tribute.io" class="btn btn-primary mb-btn">Link to GitHub</a>
+						</div>
+					</div>
+					</div>
+
+				</div>
+			</div>
+			
 		</div>
 
 
@@ -316,6 +315,7 @@ fourthLink.onclick = function(event) {
 <script src="H:\9raya...js\week1 html&css&js\CV bootsrap\scripts\jquery-3.2.1.min.js"></script>
 <script src="H:\9raya...js\week1 html&css&js\CV bootsrap\vendors\popper.js"></script>
 <script src="H:\9raya...js\week1 html&css&js\CV bootsrap\scripts\bootstrap.js"></script>
+<script src="scripts/main.js"></script>
 </main>
 </body>
 <footer class="text-white container ">
@@ -341,8 +341,6 @@ fourthLink.onclick = function(event) {
 
 				<a href="https://www.linkedin.com/in/ben-jemaa-moez-90734810b/" class="fa fa-linkedin "></a>
 
-
-				<a href="" class="fa fa-google"></a>
 
 				<a href="https://github.com/" class="fa fa-github"></a>
 
