@@ -13,7 +13,7 @@ This is a small web application wich does the following:
 
 The following screenshot shows my App:
 <p align="center">
-    <img src="images/m.png">
+    <img src="images/capture.PNG">
     
 
 </p>
