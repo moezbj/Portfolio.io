@@ -143,6 +143,7 @@ textarea{
 .card {
   margin-right: 10px;
   margin-bottom: 30px;
+  align-items: stretch;
 }
 .bouton{
    border-color: grey; 
@@ -151,6 +152,6 @@ textarea{
     padding-bottom: 5px;
     padding-left: 5px;
 }
-.card {
-   min-height: auto;
+.row {
+   display: flex;
 }
